@@ -8,7 +8,10 @@ namespace A1_Robot_Vs_Dino
 {
     class Herd
     {
-        public Dino
+
+        List<Dinosaur> dinosaurList = new List<Dinosaur>() {new Dinosaur(80), new Dinosaur(90),new Dinosaur(100)}; 
+
+
         //member variables   (HAS A)
 
         //constructor        (SPAWN)
