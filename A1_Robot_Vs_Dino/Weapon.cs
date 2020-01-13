@@ -9,13 +9,14 @@ namespace A1_Robot_Vs_Dino
     class Weapon
     {
         //member variables   (HAS A)
-        string type; 
-        int attackPower; 
+        public string type; 
+        public int attackPower; 
 
         //constructor        (SPAWN)
         public Weapon(string type)
         {
             this.type = type;
+            attackPower = 80;
         }
 
         //member methods     (CAN DO)
